@@ -12,7 +12,8 @@ dotenv.config()
 
 const server  = new ApolloServer({
     typeDefs,
-    resolvers
+    resolvers,
+    playground:true
 })
 server.applyMiddleware({ app })
 const httpServer = http.createServer(app)
