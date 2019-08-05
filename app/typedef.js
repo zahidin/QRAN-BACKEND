@@ -11,6 +11,7 @@ const typeDefs = gql`
     type Mutation{
         addQueue(ip:String!,number:String!,time:String!): Status
         addOperator(number:String!): Queue
+        logoutUser(number:String!):StatusUpdated
     }
     type Subscription {
         newQueue: Number
@@ -24,6 +25,9 @@ const typeDefs = gql`
         number:String
         time:String
         hash:String
+    }
+    type StatusUpdated{
+        success:Int
     }
     type Status{
         success:Int
