@@ -1,6 +1,6 @@
-# 🤖 QRAN-SERVER
+# 🤖 QRAN-BACKEND
 
-QRAN (QR Antrian Server) With Express & Apollo Server
+QRAN (QR Antrian Backend) With Express & Apollo Server
 
 ## 🚀 Getting started
 
@@ -15,8 +15,9 @@ npm install
 ```javascript 
 npm start 
 ```
+## 😃 FrontEnd QRAN
+[you can get it here](https://github.com/zahidin/QRAN)
 
 ## 🖼️ Screenshot
 ![Graphql Playground](https://imgdb.net/images/6035.png)
 
-## 😃 [FrontEnd QRAN](https://github.com/zahidin/QRAN) 
