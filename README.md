@@ -15,7 +15,7 @@ npm install
 ```javascript 
 npm start 
 ```
-## 😃 FrontEnd QRAN
+## 😃 Frontend QRAN
 [you can get it here](https://github.com/zahidin/QRAN)
 
 ## 🖼️ Screenshot
