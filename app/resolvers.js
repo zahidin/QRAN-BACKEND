@@ -61,8 +61,14 @@ const resolvers = {
         },
         difference: async (_,args) => {
             const results = await connect('queues').where('operator','0').where('status_login','0').orderBy('number')
-            let difference = parseInt(args.number) - parseInt(results[0].number)
-            return difference.toString()
+            if(results.length == 0){
+                return "0"
+            }else{
+                let difference = parseInt(args.number) - parseInt(results[0].number)
+                console.log("TCL: args.number", args.number)
+                console.log("TCL: results[0].number", results)
+                return difference.toString()
+            }
         }
     },
     Status:{
