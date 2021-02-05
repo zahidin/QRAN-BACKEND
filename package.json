@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "apollo-server": "^2.7.0",
-    "apollo-server-express": "^2.7.0",
+    "apollo-server-express": "^2.14.2",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "dotenv": "^8.0.0",
